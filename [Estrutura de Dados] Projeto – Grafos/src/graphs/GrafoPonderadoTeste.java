@@ -32,7 +32,7 @@ public class GrafoPonderadoTeste {
 
             switch (opcao) {
                 case "a":
-                    System.out.print("Quantos véstives terá esse grafo: ");
+                    System.out.print("Quantos véstices terá esse grafo: ");
                     grafo = new GrafoPonderado.Grafo(sc.nextInt());
                     grafoCriado = true;
                     break;
